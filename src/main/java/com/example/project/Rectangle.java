@@ -13,6 +13,6 @@ public class Rectangle implements Shape {
     public double getArea() {
         double w = Math.max(0.0, width);
         double h = Math.max(0.0, height);
-        return w * h;
+        return w + h;
     }
 }
